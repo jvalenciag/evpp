@@ -169,7 +169,6 @@ void EventLoop::RunInLoop(const Functor& functor) {
 }
 
 void EventLoop::QueueInLoop(const Functor& cb) {
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop notified_=" << notified_.load() << " pending_functor_count_=" << pending_functor_count_;
     {
 #ifdef H_HAVE_BOOST
         auto f = new Functor(cb);
@@ -184,21 +183,19 @@ void EventLoop::QueueInLoop(const Functor& cb) {
 #endif
     }
     ++pending_functor_count_;
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop notified_=" << notified_.load() << ", queue a new Functor. pending_functor_count_=" << pending_functor_count_;
     if (!notified_.load()) {
-        //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop call watcher_->Nofity()";
+        // We must set notified_ to true before calling `watcher_->Nodify()`
+        // otherwise there is a change that:
+        //  1. We called watcher_- > Nodify() on thread1
+        //  2. On thread2 we watched this event, so wakeup the CPU changed to run this EventLoop on thread2 and executed all the pending task
+        //  3. Then the CPU changed to run on thread1 and set notified_ to true
+        //  4. Then, some thread except thread2 call this QueueInLoop to push a task into the queue, and find notified_ is true, so there is no change to wakeup thread2 to execute this task
+        notified_.store(true);
         watcher_->Notify();
-
-        //TODO This will cause a bug : miss the notify event and make the functor will never be called.
-        //TODO performance improvement.
-        //notified_.store(true);
-    } else {
-        //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " No need to call watcher_->Nofity()";
     }
 }
 
 void EventLoop::QueueInLoop(Functor&& cb) {
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop notified_=" << notified_.load() << " pending_functor_count_=" << pending_functor_count_;
     {
 #ifdef H_HAVE_BOOST
         auto f = new Functor(std::move(cb)); // TODO Add test code for it
@@ -213,16 +210,9 @@ void EventLoop::QueueInLoop(Functor&& cb) {
 #endif
     }
     ++pending_functor_count_;
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop notified_=" << notified_.load() << ", queue a new Functor. pending_functor_count_=" << pending_functor_count_;
     if (!notified_.load()) {
-        //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " QueueInLoop call watcher_->Nofity()";
+        notified_.store(true);
         watcher_->Notify();
-
-        //TODO This will cause a bug : miss the notify event and make the functor will never be called.
-        //TODO performance improvement.
-        //notified_.store(true);
-    } else {
-        //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " No need to call watcher_->Nofity()";
     }
 }
 
@@ -251,8 +241,6 @@ void EventLoop::RunInLoop(Functor&& functor) {
 }
 
 void EventLoop::DoPendingFunctors() {
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " DoPendingFunctors pending_functor_count_=" << pending_functor_count_;
-
 #ifdef H_HAVE_BOOST
     Functor* f = nullptr;
     while (pending_functors_->pop(f)) {
@@ -274,14 +262,11 @@ void EventLoop::DoPendingFunctors() {
         std::lock_guard<std::mutex> lock(mutex_);
         notified_.store(false);
         pending_functors_->swap(functors);
-        //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " DoPendingFunctors pending_functor_count_=" << pending_functor_count_ << "notified_=" << notified_.load();
     }
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " DoPendingFunctors pending_functor_count_=" << pending_functor_count_ << "notified_=" << notified_.load();
     for (size_t i = 0; i < functors.size(); ++i) {
         functors[i]();
         --pending_functor_count_;
     }
-    //LOG_INFO << "this=" << this << " tid=" << std::this_thread::get_id() << " DoPendingFunctors pending_functor_count_=" << pending_functor_count_ << "notified_=" << notified_.load();
 #endif
 }
 
