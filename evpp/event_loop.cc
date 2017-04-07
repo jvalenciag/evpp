@@ -94,7 +94,7 @@ void EventLoop::Run() {
     // Make sure watcher_ does construct,initialize and destruct in the same thread.
     watcher_.reset();
     running_ = false;
-    LOG_TRACE << "EventLoop stopped, tid: " << std::this_thread::get_id();
+    LOG_TRACE << "this=" << this << " EventLoop stopped, tid: " << std::this_thread::get_id();
 }
 
 
@@ -104,7 +104,7 @@ void EventLoop::Stop() {
 }
 
 void EventLoop::StopInLoop() {
-    LOG_TRACE << "EventLoop is stopping now, tid=" << std::this_thread::get_id();
+    LOG_TRACE << "this=" << this << " EventLoop is stopping now, tid=" << std::this_thread::get_id();
     assert(running_);
 
     auto f = [this]() {
