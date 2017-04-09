@@ -124,13 +124,12 @@ void EventLoop::StopInLoop() {
     };
     f();
 
+#ifdef H_BENCHMARK_TESTING
     event_base_loopexit(evbase_, NULL);
-//#ifdef H_BENCHMARK_TESTING
-//    event_base_loopexit(evbase_, NULL);
-//#else
-//    timeval tv = Duration(0.5).TimeVal(); // Trick : delay 0.5 second
-//    event_base_loopexit(evbase_, &tv);
-//#endif
+#else
+    timeval tv = Duration(0.005).TimeVal(); // Trick : delay 0.5 second
+    event_base_loopexit(evbase_, &tv);
+#endif
     f();
     running_ = false;
 }
