@@ -163,7 +163,7 @@ void Service::SendReply(struct evhttp_request* req, const std::string& response_
     auto f = [this, response]() {
         // In the main HTTP listening thread
         assert(listen_loop_->IsInLoopThread());
-        LOG_TRACE << "this=" << this << " send reply in listenning thread";
+        LOG_TRACE << "this=" << this << " send reply in listening thread";
 
         if (!response->buffer) {
             evhttp_send_reply(response->req, HTTP_NOTFOUND, "Not Found", nullptr);
@@ -174,7 +174,13 @@ void Service::SendReply(struct evhttp_request* req, const std::string& response_
     };
 
     // Forward this response sending task to HTTP listening thread
-    listen_loop_->RunInLoop(f);
+    if (listen_loop_->IsRunning()) {
+        LOG_INFO << "this=" << this << " dispatch this SendReply to listening thread";
+        listen_loop_->RunInLoop(f);
+    } else {
+        LOG_WARN << "this=" << this << " listening thread is going to stop. we discards this request.";
+        // TODO do we need do some resource recycling about the evhttp_request?
+    }
 }
 }
 }
