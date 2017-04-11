@@ -72,10 +72,10 @@ bool Server::Start() {
     std::shared_ptr<std::atomic<int>> exited_listen_thread_count(new std::atomic<int>(0));
     bool rc = tpool_->Start(true);
     for (auto& lt : listen_threads_) {
-        auto http_close_fn = [=]() {
-            lt.hserver->Stop();
-            LOG_INFO << "this=" << this << " http service at 0.0.0.0:" << lt.hserver->port() << " has stopped.";
-            OnListenThreadExited(exited_listen_thread_count->fetch_add(1) + 1);
+        auto http_close_fn = [hserver = lt.hserver, this, exited_listen_thread_count]() {
+            hserver->Stop();
+            LOG_INFO << "this=" << this << " http service at 0.0.0.0:" << hserver->port() << " has stopped.";
+            this->OnListenThreadExited(exited_listen_thread_count->fetch_add(1) + 1);
         };
         rc = rc && lt.thread->Start(true,
                                EventLoopThread::Functor(),
