@@ -1,0 +1,56 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/algorithm.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/algorithm.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/behavior.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/behavior.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/crc32.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/crc32.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/digest.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/digest.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/fnv.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/fnv.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/function.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/function.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/hashkit.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/hashkit.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/hsieh.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/hsieh.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/jenkins.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/jenkins.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/ketama.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/ketama.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/md5.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/md5.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/murmur.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/murmur.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/one_at_a_time.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/one_at_a_time.c.o"
+  "/home/jvalencia/workspace/evpp/3rdparty/libhashkit/strerror.c" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/__/3rdparty/libhashkit/strerror.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../"
+  "../3rdparty"
+  "../apps"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jvalencia/workspace/evpp/apps/evmc/binary_codec.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/binary_codec.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/command.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/command.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/extract_vbucket_conf.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/extract_vbucket_conf.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/memcache_client.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/memcache_client.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/memcache_client_base.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/memcache_client_base.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/memcache_client_pool.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/memcache_client_pool.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/memcache_client_serial.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/memcache_client_serial.cc.o"
+  "/home/jvalencia/workspace/evpp/apps/evmc/vbucket_config.cc" "/home/jvalencia/workspace/evpp/cmake-build-debug/apps/CMakeFiles/evmc_static.dir/evmc/vbucket_config.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
+  "../3rdparty"
+  "../apps"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/jvalencia/workspace/evpp/cmake-build-debug/evpp/CMakeFiles/evpp_concurrentqueue.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

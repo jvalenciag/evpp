@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue6" />
+      <config projectName="safe-evpp" targetName="evmc_test" />
+      <config projectName="safe-evpp" targetName="example_multi_accept" />
+      <config projectName="safe-evpp" targetName="example_http_client_request01" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue1" />
+      <config projectName="safe-evpp" targetName="example_http_client_request03" />
+      <config projectName="safe-evpp" targetName="example_http_client_request02" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue3" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue2" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue5" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_concurrentqueue4" />
+      <config projectName="safe-evpp" targetName="benchmark_pingpong_server" />
+      <config projectName="safe-evpp" targetName="ContinuousStart" />
+      <config projectName="safe-evpp" targetName="example_dns_resolve" />
+      <config projectName="safe-evpp" targetName="example_http_client_request05" />
+      <config projectName="safe-evpp" targetName="example_http_client_request04" />
+      <config projectName="safe-evpp" targetName="NightlyMemoryCheck" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue1" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue2" />
+      <config projectName="safe-evpp" targetName="benchmark_tcp_libevent_client" />
+      <config projectName="safe-evpp" targetName="example_twisted_webserver" />
+      <config projectName="safe-evpp" targetName="example_signal02" />
+      <config projectName="safe-evpp" targetName="example_tcp_server" />
+      <config projectName="safe-evpp" targetName="example_signal01" />
+      <config projectName="safe-evpp" targetName="example_pingpong_server" />
+      <config projectName="safe-evpp" targetName="example_tcpecho" />
+      <config projectName="safe-evpp" targetName="evpp_concurrentqueue_static" />
+      <config projectName="safe-evpp" targetName="example_recipes_self_control_timer_basic_02" />
+      <config projectName="safe-evpp" targetName="ExperimentalMemCheck" />
+      <config projectName="safe-evpp" targetName="example_recipes_self_control_timer_basic_01" />
+      <config projectName="safe-evpp" targetName="benchmark_tcp_asio_server" />
+      <config projectName="safe-evpp" targetName="evpp_boost" />
+      <config projectName="safe-evpp" targetName="ExperimentalUpdate" />
+      <config projectName="safe-evpp" targetName="benchmark_ioevent_libevent" />
+      <config projectName="safe-evpp" targetName="evmc" />
+      <config projectName="safe-evpp" targetName="example_pingpong_client" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task5" />
+      <config projectName="safe-evpp" targetName="benchmark_pingpong_header_body_server" />
+      <config projectName="safe-evpp" targetName="ContinuousUpdate" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task6" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task3" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task4" />
+      <config projectName="safe-evpp" targetName="example_evnsq_tail" />
+      <config projectName="safe-evpp" targetName="evpp_unittest" />
+      <config projectName="safe-evpp" targetName="example_chatroom_simple_server" />
+      <config projectName="safe-evpp" targetName="NightlyMemCheck" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task1" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue5" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task2" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue6" />
+      <config projectName="safe-evpp" targetName="benchmark_http_evpp" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue3" />
+      <config projectName="safe-evpp" targetName="benchmark_post_task_boost_lockfree_queue4" />
+      <config projectName="safe-evpp" targetName="benchmark_pingpong_client" />
+      <config projectName="safe-evpp" targetName="NightlyCoverage" />
+      <config projectName="safe-evpp" targetName="ContinuousSubmit" />
+      <config projectName="safe-evpp" targetName="ContinuousCoverage" />
+      <config projectName="safe-evpp" targetName="NightlyTest" />
+      <config projectName="safe-evpp" targetName="NightlyConfigure" />
+      <config projectName="safe-evpp" targetName="evpp_lite_static" />
+      <config projectName="safe-evpp" targetName="evpp_unittest_boost_lockfree" />
+      <config projectName="safe-evpp" targetName="benchmark_gettimeofday" />
+      <config projectName="safe-evpp" targetName="example_timer03" />
+      <config projectName="safe-evpp" targetName="example_timer04" />
+      <config projectName="safe-evpp" targetName="evnsq_tail" />
+      <config projectName="safe-evpp" targetName="example_timer01" />
+      <config projectName="safe-evpp" targetName="ExperimentalCoverage" />
+      <config projectName="safe-evpp" targetName="example_timer02" />
+      <config projectName="safe-evpp" targetName="evmc_static" />
+      <config projectName="safe-evpp" targetName="example_timer05" />
+      <config projectName="safe-evpp" targetName="evpp_unittest_concurrentqueue" />
+      <config projectName="safe-evpp" targetName="ContinuousTest" />
+      <config projectName="safe-evpp" targetName="NightlyBuild" />
+      <config projectName="safe-evpp" targetName="benchmark_ioevent_evpp_pipe_watcher" />
+      <config projectName="safe-evpp" targetName="benchmark_ioevent_evpp" />
+      <config projectName="safe-evpp" targetName="ExperimentalConfigure" />
+      <config projectName="safe-evpp" targetName="ExperimentalBuild" />
+      <config projectName="safe-evpp" targetName="ContinuousMemCheck" />
+      <config projectName="safe-evpp" targetName="ExperimentalStart" />
+      <config projectName="safe-evpp" targetName="example_udpecho" />
+      <config projectName="safe-evpp" targetName="benchmark_http_libevent" />
+      <config projectName="safe-evpp" targetName="NightlySubmit" />
+      <config projectName="safe-evpp" targetName="ExperimentalSubmit" />
+      <config projectName="safe-evpp" targetName="example_twisted_pubsubserver" />
+      <config projectName="safe-evpp" targetName="test_evpp_stability_concurrentqueue" />
+      <config projectName="safe-evpp" targetName="unittest_evnsq_producer_with_auth" />
+      <config projectName="safe-evpp" targetName="evnsq" />
+      <config projectName="safe-evpp" targetName="evpp_static" />
+      <config projectName="safe-evpp" targetName="example_tcp_client" />
+      <config projectName="safe-evpp" targetName="benchmark_fd_channel_vs_pipe_event_watcher" />
+      <config projectName="safe-evpp" targetName="example_httpecho" />
+      <config projectName="safe-evpp" targetName="benchmark_pingpong_header_body_client" />
+      <config projectName="safe-evpp" targetName="ContinuousConfigure" />
+      <config projectName="safe-evpp" targetName="benchmark_tcp_asio_client" />
+      <config projectName="safe-evpp" targetName="Nightly" />
+      <config projectName="safe-evpp" targetName="Experimental" />
+      <config projectName="safe-evpp" targetName="test_evpp_stability" />
+      <config projectName="safe-evpp" targetName="evpp_concurrentqueue" />
+      <config projectName="safe-evpp" targetName="example_recipes_self_control_timer_periodic_04" />
+      <config projectName="safe-evpp" targetName="evnsq_static" />
+      <config projectName="safe-evpp" targetName="evpp" />
+      <config projectName="safe-evpp" targetName="example_recipes_self_control_timer_cancel_03" />
+      <config projectName="safe-evpp" targetName="ExperimentalTest" />
+      <config projectName="safe-evpp" targetName="benchmark_tcp_libevent_server" />
+      <config projectName="safe-evpp" targetName="example_chatroom_simple_client" />
+      <config projectName="safe-evpp" targetName="Continuous" />
+      <config projectName="safe-evpp" targetName="ContinuousBuild" />
+      <config projectName="safe-evpp" targetName="evpp_boost_static" />
+      <config projectName="safe-evpp" targetName="NightlyStart" />
+      <config projectName="safe-evpp" targetName="test_evpp_stability_boost_lockfree" />
+      <config projectName="safe-evpp" targetName="NightlyUpdate" />
+      <config projectName="safe-evpp" targetName="benchmark_pingpong_client_fixed_size" />
+      <config projectName="safe-evpp" targetName="example_evnsq_producer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae2cf70d-e5f6-4df9-9da5-afe458276b09" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evpp/CMakeLists.txt" afterPath="$PROJECT_DIR$/evpp/CMakeLists.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evpp/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-777">
+              <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/evpp/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-10" />
+    <option name="width" value="1920" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="safe-evpp" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="safe-evpp" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.evmc_test">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="evpp" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evmc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evmc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evmc_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evmc_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evmc_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evmc_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="evmc_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evnsq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evnsq" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evnsq_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evnsq_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evnsq_tail" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evnsq_tail" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="evnsq_tail">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="unittest_evnsq_producer_with_auth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="unittest_evnsq_producer_with_auth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="unittest_evnsq_producer_with_auth">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_gettimeofday" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_gettimeofday" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_gettimeofday">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_http_evpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_http_evpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_http_evpp">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_http_libevent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_http_libevent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_http_libevent">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_ioevent_evpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_ioevent_evpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_ioevent_evpp">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_ioevent_evpp_pipe_watcher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_ioevent_evpp_pipe_watcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_ioevent_evpp_pipe_watcher">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_fd_channel_vs_pipe_event_watcher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_fd_channel_vs_pipe_event_watcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_fd_channel_vs_pipe_event_watcher">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_ioevent_libevent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_ioevent_libevent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_ioevent_libevent">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_boost_lockfree_queue6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_boost_lockfree_queue6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_boost_lockfree_queue6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_post_task_concurrentqueue6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_post_task_concurrentqueue6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_post_task_concurrentqueue6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_tcp_asio_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_tcp_asio_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_tcp_asio_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_tcp_asio_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_tcp_asio_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_tcp_asio_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_pingpong_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_pingpong_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_pingpong_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_pingpong_client_fixed_size" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_pingpong_client_fixed_size" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_pingpong_client_fixed_size">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_pingpong_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_pingpong_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_pingpong_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_tcp_libevent_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_tcp_libevent_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_tcp_libevent_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_tcp_libevent_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_tcp_libevent_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_tcp_libevent_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_pingpong_header_body_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_pingpong_header_body_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_pingpong_header_body_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="benchmark_pingpong_header_body_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="benchmark_pingpong_header_body_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="benchmark_pingpong_header_body_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_boost" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_boost" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_boost_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_boost_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_concurrentqueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_concurrentqueue" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_concurrentqueue_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_concurrentqueue_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_lite_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_lite_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_dns_resolve" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_dns_resolve" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_dns_resolve">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_http_client_request01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_http_client_request01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_http_client_request01">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_http_client_request02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_http_client_request02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_http_client_request02">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_http_client_request03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_http_client_request03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_http_client_request03">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_http_client_request04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_http_client_request04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_http_client_request04">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_http_client_request05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_http_client_request05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_http_client_request05">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_httpecho" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_httpecho" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_httpecho">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_multi_accept" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_multi_accept" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_multi_accept">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_pingpong_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_pingpong_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_pingpong_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_pingpong_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_pingpong_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_pingpong_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_signal01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_signal01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_signal01">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_signal02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_signal02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_signal02">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_tcp_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_tcp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_tcp_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_tcp_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_tcp_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_tcp_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_tcpecho" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_tcpecho" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_tcpecho">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_timer01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_timer01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_timer01">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_timer02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_timer02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_timer02">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_timer03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_timer03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_timer03">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_timer04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_timer04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_timer04">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_timer05" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_timer05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_timer05">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_twisted_pubsubserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_twisted_pubsubserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_twisted_pubsubserver">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_twisted_webserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_twisted_webserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_twisted_webserver">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_udpecho" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_udpecho" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_udpecho">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_evnsq_producer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_evnsq_producer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_evnsq_producer">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_evnsq_tail" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_evnsq_tail" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_evnsq_tail">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_chatroom_simple_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_chatroom_simple_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_chatroom_simple_client">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_chatroom_simple_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_chatroom_simple_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_chatroom_simple_server">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_recipes_self_control_timer_basic_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_recipes_self_control_timer_basic_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_recipes_self_control_timer_basic_01">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_recipes_self_control_timer_basic_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_recipes_self_control_timer_basic_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_recipes_self_control_timer_basic_02">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_recipes_self_control_timer_cancel_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_recipes_self_control_timer_cancel_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_recipes_self_control_timer_cancel_03">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_recipes_self_control_timer_periodic_04" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="example_recipes_self_control_timer_periodic_04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="example_recipes_self_control_timer_periodic_04">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ContinuousUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_unittest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_unittest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="evpp_unittest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_unittest_boost_lockfree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_unittest_boost_lockfree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="evpp_unittest_boost_lockfree">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="evpp_unittest_concurrentqueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="evpp_unittest_concurrentqueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="evpp_unittest_concurrentqueue">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="ExperimentalUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlySubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="NightlyUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_evpp_stability" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="test_evpp_stability" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="test_evpp_stability">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_evpp_stability_boost_lockfree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="test_evpp_stability_boost_lockfree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="test_evpp_stability_boost_lockfree">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_evpp_stability_concurrentqueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="safe-evpp" TARGET_NAME="test_evpp_stability_concurrentqueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="safe-evpp" RUN_TARGET_NAME="test_evpp_stability_concurrentqueue">
+      <envs />
+      <method />
+    </configuration>
+    <list size="114">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.evmc" />
+      <item index="2" class="java.lang.String" itemvalue="Application.evmc_static" />
+      <item index="3" class="java.lang.String" itemvalue="Application.evmc_test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.evnsq" />
+      <item index="5" class="java.lang.String" itemvalue="Application.evnsq_static" />
+      <item index="6" class="java.lang.String" itemvalue="Application.evnsq_tail" />
+      <item index="7" class="java.lang.String" itemvalue="Application.unittest_evnsq_producer_with_auth" />
+      <item index="8" class="java.lang.String" itemvalue="Application.benchmark_gettimeofday" />
+      <item index="9" class="java.lang.String" itemvalue="Application.benchmark_http_evpp" />
+      <item index="10" class="java.lang.String" itemvalue="Application.benchmark_http_libevent" />
+      <item index="11" class="java.lang.String" itemvalue="Application.benchmark_ioevent_evpp" />
+      <item index="12" class="java.lang.String" itemvalue="Application.benchmark_ioevent_evpp_pipe_watcher" />
+      <item index="13" class="java.lang.String" itemvalue="Application.benchmark_fd_channel_vs_pipe_event_watcher" />
+      <item index="14" class="java.lang.String" itemvalue="Application.benchmark_ioevent_libevent" />
+      <item index="15" class="java.lang.String" itemvalue="Application.benchmark_post_task1" />
+      <item index="16" class="java.lang.String" itemvalue="Application.benchmark_post_task2" />
+      <item index="17" class="java.lang.String" itemvalue="Application.benchmark_post_task3" />
+      <item index="18" class="java.lang.String" itemvalue="Application.benchmark_post_task4" />
+      <item index="19" class="java.lang.String" itemvalue="Application.benchmark_post_task5" />
+      <item index="20" class="java.lang.String" itemvalue="Application.benchmark_post_task6" />
+      <item index="21" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue1" />
+      <item index="22" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue2" />
+      <item index="23" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue3" />
+      <item index="24" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue4" />
+      <item index="25" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue5" />
+      <item index="26" class="java.lang.String" itemvalue="Application.benchmark_post_task_boost_lockfree_queue6" />
+      <item index="27" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue1" />
+      <item index="28" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue2" />
+      <item index="29" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue3" />
+      <item index="30" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue4" />
+      <item index="31" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue5" />
+      <item index="32" class="java.lang.String" itemvalue="Application.benchmark_post_task_concurrentqueue6" />
+      <item index="33" class="java.lang.String" itemvalue="Application.benchmark_tcp_asio_client" />
+      <item index="34" class="java.lang.String" itemvalue="Application.benchmark_tcp_asio_server" />
+      <item index="35" class="java.lang.String" itemvalue="Application.benchmark_pingpong_client" />
+      <item index="36" class="java.lang.String" itemvalue="Application.benchmark_pingpong_client_fixed_size" />
+      <item index="37" class="java.lang.String" itemvalue="Application.benchmark_pingpong_server" />
+      <item index="38" class="java.lang.String" itemvalue="Application.benchmark_tcp_libevent_client" />
+      <item index="39" class="java.lang.String" itemvalue="Application.benchmark_tcp_libevent_server" />
+      <item index="40" class="java.lang.String" itemvalue="Application.benchmark_pingpong_header_body_client" />
+      <item index="41" class="java.lang.String" itemvalue="Application.benchmark_pingpong_header_body_server" />
+      <item index="42" class="java.lang.String" itemvalue="Application.evpp" />
+      <item index="43" class="java.lang.String" itemvalue="Application.evpp_boost" />
+      <item index="44" class="java.lang.String" itemvalue="Application.evpp_boost_static" />
+      <item index="45" class="java.lang.String" itemvalue="Application.evpp_concurrentqueue" />
+      <item index="46" class="java.lang.String" itemvalue="Application.evpp_concurrentqueue_static" />
+      <item index="47" class="java.lang.String" itemvalue="Application.evpp_lite_static" />
+      <item index="48" class="java.lang.String" itemvalue="Application.evpp_static" />
+      <item index="49" class="java.lang.String" itemvalue="Application.example_dns_resolve" />
+      <item index="50" class="java.lang.String" itemvalue="Application.example_http_client_request01" />
+      <item index="51" class="java.lang.String" itemvalue="Application.example_http_client_request02" />
+      <item index="52" class="java.lang.String" itemvalue="Application.example_http_client_request03" />
+      <item index="53" class="java.lang.String" itemvalue="Application.example_http_client_request04" />
+      <item index="54" class="java.lang.String" itemvalue="Application.example_http_client_request05" />
+      <item index="55" class="java.lang.String" itemvalue="Application.example_httpecho" />
+      <item index="56" class="java.lang.String" itemvalue="Application.example_multi_accept" />
+      <item index="57" class="java.lang.String" itemvalue="Application.example_pingpong_client" />
+      <item index="58" class="java.lang.String" itemvalue="Application.example_pingpong_server" />
+      <item index="59" class="java.lang.String" itemvalue="Application.example_signal01" />
+      <item index="60" class="java.lang.String" itemvalue="Application.example_signal02" />
+      <item index="61" class="java.lang.String" itemvalue="Application.example_tcp_client" />
+      <item index="62" class="java.lang.String" itemvalue="Application.example_tcp_server" />
+      <item index="63" class="java.lang.String" itemvalue="Application.example_tcpecho" />
+      <item index="64" class="java.lang.String" itemvalue="Application.example_timer01" />
+      <item index="65" class="java.lang.String" itemvalue="Application.example_timer02" />
+      <item index="66" class="java.lang.String" itemvalue="Application.example_timer03" />
+      <item index="67" class="java.lang.String" itemvalue="Application.example_timer04" />
+      <item index="68" class="java.lang.String" itemvalue="Application.example_timer05" />
+      <item index="69" class="java.lang.String" itemvalue="Application.example_twisted_pubsubserver" />
+      <item index="70" class="java.lang.String" itemvalue="Application.example_twisted_webserver" />
+      <item index="71" class="java.lang.String" itemvalue="Application.example_udpecho" />
+      <item index="72" class="java.lang.String" itemvalue="Application.example_evnsq_producer" />
+      <item index="73" class="java.lang.String" itemvalue="Application.example_evnsq_tail" />
+      <item index="74" class="java.lang.String" itemvalue="Application.example_chatroom_simple_client" />
+      <item index="75" class="java.lang.String" itemvalue="Application.example_chatroom_simple_server" />
+      <item index="76" class="java.lang.String" itemvalue="Application.example_recipes_self_control_timer_basic_01" />
+      <item index="77" class="java.lang.String" itemvalue="Application.example_recipes_self_control_timer_basic_02" />
+      <item index="78" class="java.lang.String" itemvalue="Application.example_recipes_self_control_timer_cancel_03" />
+      <item index="79" class="java.lang.String" itemvalue="Application.example_recipes_self_control_timer_periodic_04" />
+      <item index="80" class="java.lang.String" itemvalue="Application.Continuous" />
+      <item index="81" class="java.lang.String" itemvalue="Application.ContinuousBuild" />
+      <item index="82" class="java.lang.String" itemvalue="Application.ContinuousConfigure" />
+      <item index="83" class="java.lang.String" itemvalue="Application.ContinuousCoverage" />
+      <item index="84" class="java.lang.String" itemvalue="Application.ContinuousMemCheck" />
+      <item index="85" class="java.lang.String" itemvalue="Application.ContinuousStart" />
+      <item index="86" class="java.lang.String" itemvalue="Application.ContinuousSubmit" />
+      <item index="87" class="java.lang.String" itemvalue="Application.ContinuousTest" />
+      <item index="88" class="java.lang.String" itemvalue="Application.ContinuousUpdate" />
+      <item index="89" class="java.lang.String" itemvalue="Application.evpp_unittest" />
+      <item index="90" class="java.lang.String" itemvalue="Application.evpp_unittest_boost_lockfree" />
+      <item index="91" class="java.lang.String" itemvalue="Application.evpp_unittest_concurrentqueue" />
+      <item index="92" class="java.lang.String" itemvalue="Application.Experimental" />
+      <item index="93" class="java.lang.String" itemvalue="Application.ExperimentalBuild" />
+      <item index="94" class="java.lang.String" itemvalue="Application.ExperimentalConfigure" />
+      <item index="95" class="java.lang.String" itemvalue="Application.ExperimentalCoverage" />
+      <item index="96" class="java.lang.String" itemvalue="Application.ExperimentalMemCheck" />
+      <item index="97" class="java.lang.String" itemvalue="Application.ExperimentalStart" />
+      <item index="98" class="java.lang.String" itemvalue="Application.ExperimentalSubmit" />
+      <item index="99" class="java.lang.String" itemvalue="Application.ExperimentalTest" />
+      <item index="100" class="java.lang.String" itemvalue="Application.ExperimentalUpdate" />
+      <item index="101" class="java.lang.String" itemvalue="Application.Nightly" />
+      <item index="102" class="java.lang.String" itemvalue="Application.NightlyBuild" />
+      <item index="103" class="java.lang.String" itemvalue="Application.NightlyConfigure" />
+      <item index="104" class="java.lang.String" itemvalue="Application.NightlyCoverage" />
+      <item index="105" class="java.lang.String" itemvalue="Application.NightlyMemCheck" />
+      <item index="106" class="java.lang.String" itemvalue="Application.NightlyMemoryCheck" />
+      <item index="107" class="java.lang.String" itemvalue="Application.NightlyStart" />
+      <item index="108" class="java.lang.String" itemvalue="Application.NightlySubmit" />
+      <item index="109" class="java.lang.String" itemvalue="Application.NightlyTest" />
+      <item index="110" class="java.lang.String" itemvalue="Application.NightlyUpdate" />
+      <item index="111" class="java.lang.String" itemvalue="Application.test_evpp_stability" />
+      <item index="112" class="java.lang.String" itemvalue="Application.test_evpp_stability_boost_lockfree" />
+      <item index="113" class="java.lang.String" itemvalue="Application.test_evpp_stability_concurrentqueue" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae2cf70d-e5f6-4df9-9da5-afe458276b09" name="Default" comment="" />
+      <created>1493822260937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493822260937</updated>
+      <workItem from="1493822262402" duration="1414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1414000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-10" width="1920" height="1090" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
