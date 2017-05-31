@@ -3,7 +3,7 @@
 #include "evpp/tcp_server.h"
 #include "evpp/listener.h"
 #include "evpp/tcp_conn.h"
-#include "evpp/libevent_headers.h"
+#include "evpp/libevent.h"
 
 namespace evpp {
 TCPServer::TCPServer(EventLoop* loop,
@@ -124,7 +124,7 @@ void TCPServer::StopThreadPool() {
     substatus_.store(kSubStatusNull);
 }
 
-void TCPServer::HandleNewConn(int sockfd,
+void TCPServer::HandleNewConn(evpp_socket_t sockfd,
                               const std::string& remote_addr/*ip:port*/,
                               const struct sockaddr_in* raddr) {
     DLOG_TRACE << "fd=" << sockfd;

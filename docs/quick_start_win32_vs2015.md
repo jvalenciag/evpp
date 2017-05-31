@@ -1,54 +1,63 @@
-Quick Start using VS2015
+Quick Start of using VS2015
 ---
 	
-## Compile evpp on Windows using Microsoft Visual Studio 2015
+## Compile evpp from source code on Windows using Microsoft Visual Studio 2015
 
-### Install compiling tool chain
+#### Install compiling tool chain
 
-1. `CMake` for windows. You can download it from [https://cmake.org/download/](https://cmake.org/download/)
-2. Microsoft `Visual Studio 2015` or higher version. You can download it from [https://www.visualstudio.com/](https://www.visualstudio.com/)
-3. Git Bash for windows. You can download it from [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
+Prerequisites:
 
-### Download the source code of evpp
+- Visual Studio 2015 Update 3 or
+- Visual Studio 2017
+- CMake 3.8.0 or higher (note: downloaded automatically if not found)
+- git.exe available in your path. You can download and install it from [https://git-for-windows.github.io/]
+- vcpkg. You can download and install it from [https://github.com/Microsoft/vcpkg]. Commits c5daa93506b616d253e257488ecc385271238e2a tests OK. Following [https://github.com/Microsoft/vcpkg#quick-start](https://github.com/Microsoft/vcpkg#quick-start) to install [vcpkg]. This document assumes that [vcpkg] is installed at `d:\git\vcpkg`.
+
+#### Install dependent libraries by using vcpkg
+
+Use [vcpkg] to install libevent,glog,gtest,gflags.
+
+	D:\git\vcpkg>vcpkg install gflags
+	D:\git\vcpkg>vcpkg install glog
+	D:\git\vcpkg>vcpkg install libevent-2.x
+
+#### Download the source code of evpp
 
 	$ git clone https://github.com/Qihoo360/evpp
 	$ cd evpp
 	$ git submodule update --init --recursive
 
-### Compile third-party dependent open source code
+#### Compile evpp
 
-The `evpp` source is dependent with `libevent`, we suggest you choose the lastest version of libevent. 
-Right now, Feb 2017, the latest version of libevent is `2.1.8`.
+Using the default vs solution file:
 
-Go to `3rdparty/libevent-release-2.1.8-stable`
-
-	$ cd 3rdparty/libevent-release-2.1.8-stable
-	$ mkdir build && cd build
-	$ cmake -G "Visual Studio 14" ..
-	$ start libevent.sln
-	... # here you can use Visual Studio 2015 to compile the three libevent project event,event_core,event_extra in debug and release mode.
-	$
-	$ cp lib/Debug/*.* ../../../vsprojects/bin/Debug/
-	$ cp lib/Release/*.* ../../../vsprojects/bin/Release/
-	$ cp -rf ../include/event2 ../../wininclude/
-	$ cp -rf ../build/include/event2/event-config.h ../../wininclude/event2
-    $ cd ../../../vsprojects/bin/Debug/
-    $ mv libglog_static.lib glog.lib
-    $ cd ../Release 
-    $ mv libglog_static.lib glog.lib
-
-Note 1: We have modified the source code of libevent-release-2.1.8-stable as bellow:
-
-1. libevent-release-2.1.8-stable/CMakeList.txt : Add 'set(EVENT__DISABLE_OPENSSL ON)' to disable OPENSSL support
-2. libevent-release-2.1.8-stable/cmake/VersionViaGit.cmake : Delete or comment the two lines: 'find_package(Git)' and 'include(FindGit)'
-
-### Compile evpp
-
-	$ cd ../../../
 	$ start vsprojects/libevpp.sln
 	... # here yo can use Visual Studio 2015 to compile the whole evpp project
 
-### Run the unit tests
+Or, we can use CMake to compile the whole projects on WIDNOWS command line console (This does not work on unix shell):
+
+	D:\360.git\evpp>md build
+	D:\360.git\evpp>cd build
+	D:\360.git\evpp\build>cmake -DCMAKE_TOOLCHAIN_FILE=D:/git/vcpkg/scripts/buildsystems/vcpkg.cmake -G "Visual Studio 14 2015" ..
+	D:\360.git\evpp\build>start safe-evpp.sln
+
+#### Run the unit tests
 
 	$ cd vsprojects/bin/Debug/
 	$ ./libevpp-test.exe
+
+## Use evpp as a library
+
+If you just want to use [evpp] as a library, you can use [vcpkg] to install [evpp]:
+
+	 D:\git\vcpkg>vcpkg install evpp
+
+That will install [evpp] in your local machine. And then, you can use [evpp] in you own applications.
+
+
+[evpp]:https://github.com/Qihoo360/evpp
+[https://github.com/Microsoft/vcpkg]:https://github.com/Microsoft/vcpkg
+[vcpkg]:https://github.com/Microsoft/vcpkg
+[https://git-for-windows.github.io/]:https://git-for-windows.github.io/
+
+

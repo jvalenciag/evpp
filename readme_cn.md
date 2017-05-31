@@ -3,8 +3,11 @@ evpp
 
 <a href="https://github.com/Qihoo360/evpp/releases"><img src="https://img.shields.io/github/release/Qihoo360/evpp.svg" alt="Github release"></a>
 <a href="https://travis-ci.org/Qihoo360/evpp"><img src="https://travis-ci.org/Qihoo360/evpp.svg?branch=master" alt="Build status"></a>
+[![Platform](https://img.shields.io/badge/platform-%20%20%20%20Linux,%20BSD,%20OS%20X,%20Windows-green.svg?style=flat)](https://github.com/Qihoo360/evpp)
+[![License](https://img.shields.io/badge/license-%20%20BSD%203%20clause-yellow.svg?style=flat)](LICENSE)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-# 简介 [English](readme.md)
+# 简介 [English Introduce](readme.md)
 
 [evpp]是一个基于[libevent]开发的现代化C++11高性能网络服务器，自带TCP/UDP/HTTP等协议的异步非阻塞式的服务器和客户端库。
 
@@ -13,16 +16,19 @@ evpp
 
 1. 现代版的C++11接口
 1. 非阻塞异步接口都是C++11的functional/bind形式的回调仿函数（不是[libevent]中的C风格的函数指针）
+1. CPU多核友好和线程安全
 1. 非阻塞纯异步多线程TCP服务器/客户端
 1. 非阻塞纯异步多线程HTTP服务器/客户端
 1. 非阻塞纯异步多线程UDP服务器
 1. 支持多进程模式
 1. 优秀的跨平台特性和高性能（继承自[libevent]的优点）
+2. 已经经过详尽的测试，并已经用于生产环境，每天承载数万亿次的网络通信
+3. 非常容易安装和集成，[evpp] 能够很容易就打包出 deb/rpm/tar.gz 等格式的安装包
 
 除此之外，基于该库之上，还提供两个附带的应用层协议库：
 
-1. [evmc] ：一个纯异步非阻塞式的`memcached`的C++客户端库，支持`membase`集群模式。该库已经用于生产环境，每天发起1000多**亿**次memcache查询请求。详情请见：[evmc readme](/apps/evmc/readme.md)
-2. [evnsq] ： 一个纯异步非阻塞式的`NSQ`的C++客户端库，支持消费者、生产者、服务发现等特性。该库已经用于生产环境，每天生产200多**亿**条日志消息。详情请见：[evnsq readme](/apps/evnsq/readme.md)
+1. [evmc] ：一个纯异步非阻塞式的`memcached`的C++客户端库，支持`membase`集群模式。该库已经用于生产环境，每天发起3000多**亿**次memcache查询请求。详情请见：[evmc readme](/apps/evmc/readme.md)
+2. [evnsq] ： 一个纯异步非阻塞式的`NSQ`的C++客户端库，支持消费者、生产者、服务发现等特性。该库已经用于生产环境，每天生产1300多**亿**条日志消息。详情请见：[evnsq readme](/apps/evnsq/readme.md)
 
 将来还会推出`redis`的客户端库。
 
@@ -43,7 +49,7 @@ evpp
 4. 网络地址的表达就仅仅使用`"ip:port"`这种形式字符串表示，就是参考[Golang]的设计
 5. `httpc::ConnPool`是一个http的客户端连接池库，设计上尽量考虑高性能和复用。以后基于此还可以增加负载均衡和故障转移等特性
 
-另外，我们实现过程中极其重视线程安全问题，一个事件相关的资源必须在其所属的`EventLoop`（每个`EventLoop`绑定一个线程）中初始化和析构释放，这样我们能最大限度的减少出错的可能。为了达到这个目标我们重载`event_add`和`event_del`等函数，每一次调用`event_add`，就在对应的线程私有数据中记录该对象，在调用`event_del`时，检查之前该线程私有数据中是否拥有该对象，然后在整个程序退出前，再完整的检查所有线程的私有数据，看看是否仍然有对象没有析构释放。具体实现稍有区别，详细代码实现可以参考 [https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L46~L87](https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L46~L87)。我们如此苛刻的追求线程安全，只是为了让一个程序能**安静的平稳的退出或Reload**，因为我们深刻的理解“编写永远运行的系统，和编写运行一段时间后平静关闭的系统是两码事”，后者要困难的多得多。
+另外，我们实现过程中极其重视线程安全问题，一个事件相关的资源必须在其所属的`EventLoop`（每个`EventLoop`绑定一个线程）中初始化和析构释放，这样我们能最大限度的减少出错的可能。为了达到这个目标我们重载`event_add`和`event_del`等函数，每一次调用`event_add`，就在对应的线程私有数据中记录该对象，在调用`event_del`时，检查之前该线程私有数据中是否拥有该对象，然后在整个程序退出前，再完整的检查所有线程的私有数据，看看是否仍然有对象没有析构释放。具体实现稍有区别，详细代码实现可以参考 [https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L36~L87](https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L36~L87)。我们如此苛刻的追求线程安全，只是为了让一个程序能**安静的平稳的退出或Reload**，因为我们深刻的理解“编写永远运行的系统，和编写运行一段时间后平静关闭的系统是两码事”，后者要困难的多得多。
 
 
 # 快速开始
@@ -126,7 +132,6 @@ int main(int argc, char* argv[]) {
 ### An echo HTTP server
 
 ```cpp
-#include <evpp/exp.h>
 #include <evpp/http/http_server.h>
 
 int main(int argc, char* argv[]) {
@@ -153,7 +158,6 @@ int main(int argc, char* argv[]) {
 ### An echo UDP server
 
 ```cpp
-#include <evpp/exp.h>
 #include <evpp/udp/udp_server.h>
 #include <evpp/udp/udp_message.h>
 

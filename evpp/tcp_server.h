@@ -30,9 +30,9 @@ class Listener;
 //     evpp::EventLoop loop;
 //     evpp::TCPServer server(&loop, addr, "TCPEchoServer", thread_num);
 //     server.SetMessageCallback([](const evpp::TCPConnPtr& conn,
-//                                  evpp::Buffer* msg,
-//                                  evpp::Timestamp ts) {
-//         conn->Send(msg);
+//                                  evpp::Buffer* msg) {
+//         // Do something with the received message
+//         conn->Send(msg); // At here, we just send the received message back.
 //     });
 //     server.SetConnectionCallback([](const evpp::TCPConnPtr& conn) {
 //         if (conn->IsConnected()) {
@@ -99,7 +99,7 @@ private:
     void StopThreadPool();
     void StopInLoop(DoneCallback on_stopped_cb);
     void RemoveConnection(const TCPConnPtr& conn);
-    void HandleNewConn(int sockfd, const std::string& remote_addr/*ip:port*/, const struct sockaddr_in* raddr);
+    void HandleNewConn(evpp_socket_t sockfd, const std::string& remote_addr/*ip:port*/, const struct sockaddr_in* raddr);
     EventLoop* GetNextLoop(const struct sockaddr_in* raddr);
 private:
     EventLoop* loop_;  // the listening loop

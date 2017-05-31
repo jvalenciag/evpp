@@ -2,7 +2,7 @@
 #include "evpp/dns_resolver.h"
 #include "evpp/event_loop.h"
 #include "evpp/event_watcher.h"
-#include "evpp/libevent_headers.h"
+#include "evpp/libevent.h"
 
 namespace evpp {
 DNSResolver::DNSResolver(EventLoop* evloop, const std::string& h, Duration timeout, const Functor& f)
@@ -138,10 +138,10 @@ void DNSResolver::OnResolved(int errcode, struct addrinfo* addr) {
                 << ", error code: " << errcode
                 << ", error msg: " << evutil_gai_strerror(errcode);
         } else {
-            LOG_WARN << "this=" << this << " DNS resolve cancel, may be timeout";
+            DLOG_WARN << "DNS resolve cancel, may be timeout";
         }
 
-        DLOG_TRACE << "delete DNS base";
+        DLOG_WARN << "delete DNS base. errcode=" << errcode << " " << strerror(errcode);
         evdns_base_free(dnsbase_, 0);
         dnsbase_ = nullptr;
         OnResolved();

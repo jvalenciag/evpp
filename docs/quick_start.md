@@ -16,8 +16,7 @@ Quick Start
 ### Install dependent open source code
 
 1. Install glog
-2. Install gtest
-2. Install libevent 2.x
+2. Install libevent-2.x
 
 ### Download the source code of evpp
 
@@ -36,7 +35,7 @@ Quick Start
 
 	$ cd evpp/build/bin
 
-Run a HTTP client example:
+##### Run a HTTP client example:
 
 	$ ./example_http_client_request01
 	WARNING: Logging before InitGoogleLogging() is written to STDERR
@@ -49,7 +48,7 @@ Run a HTTP client example:
 	I0306 11:45:09.993921 13231 event_loop.cc:93] EventLoop stopped, tid: 140722561709824
 	I0306 11:45:09.994107 13230 client01.cc:38] EventLoopThread stopped. 
 
-Run a HTTP server example:
+##### Run a HTTP server example:
 	
 	$ ./example_httpecho
 	WARNING: Logging before InitGoogleLogging() is written to STDERR
@@ -61,6 +60,19 @@ And in another console:
 	$ curl "http://127.0.0.1:9009/echo" -d "Hello, world"
 	Hello, world
 
-### Other
+##### Run a TCP echo server example:
+
+	$ ./example_tcpecho
+
+And in another console:
+
+	$ telnet 127.0.0.1 9099 
+	Trying 127.0.0.1...
+	Connected to 127.0.0.1.
+	Escape character is '^]'.
+
+Here we can type any words and we will find it is responsed by our TCP echo server. 
+
+# Other
 
 If you want to compile evpp on Windows using Microsoft Visual Studio 2015, please see [quick_start_win32_vs2015.md](quick_start_win32_vs2015.md)

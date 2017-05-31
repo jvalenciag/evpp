@@ -30,9 +30,16 @@ if (UNIX)
                          ${PROJECT_SOURCE_DIR}/3rdparty)
 else (UNIX)
 set (CXX_FLAGS -DWIN32 -D_WIN32 -EHsc)
-    include_directories(${PROJECT_SOURCE_DIR}
-                        ${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.4/src/windows
+    set(VcpkgRoot ${_VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET})
+    include_directories(${VcpkgRoot}/include
+                        ${PROJECT_SOURCE_DIR}
                         ${PROJECT_SOURCE_DIR}/3rdparty/wininclude)
+
+    # On windows, Debug mode
+    link_directories(${VcpkgRoot}/debug/lib ${VcpkgRoot}/debug/lib/manual-link)
+
+    # On Windows, Release mode
+    # link_directories(${VcpkgRoot}/lib ${VcpkgRoot}/lib/manual-link)
 endif (UNIX)
 
 string (REPLACE ";" " " CMAKE_CXX_FLAGS "${CXX_FLAGS}")
@@ -63,9 +70,11 @@ message (STATUS "LIBRARY_OUTPUT_PATH " ${LIBRARY_OUTPUT_PATH})
 
 add_subdirectory (evpp)
 add_subdirectory (apps)
-add_subdirectory (test)
-add_subdirectory (examples)
-add_subdirectory (benchmark)
+if (NOT EVPP_VCPKG_BUILD)
+    add_subdirectory (test)
+    add_subdirectory (examples)
+    add_subdirectory (benchmark)
+endif ()
 
 set (CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 include (utils)

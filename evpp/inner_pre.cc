@@ -1,30 +1,20 @@
 #include "evpp/inner_pre.h"
 
-#include "evpp/libevent_headers.h"
+#include "evpp/libevent.h"
 
 #ifdef H_OS_WINDOWS
-#pragma comment(lib, "event.lib")
-#if EVENT__NUMERIC_VERSION >= 0x02010500
-#pragma comment(lib, "event_core.lib")
-#pragma comment(lib, "event_extra.lib")
-#endif
 #pragma comment(lib,"Ws2_32.lib")
-#pragma comment(lib,"glog.lib")
 #endif
-
 
 #ifndef H_OS_WINDOWS
 #include <signal.h>
 #endif
-
-
 
 #include <map>
 #include <thread>
 #include <mutex>
 
 namespace evpp {
-
 
 namespace {
 struct OnStartup {

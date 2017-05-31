@@ -4,8 +4,12 @@ evpp
 
 <a href="https://github.com/Qihoo360/evpp/releases"><img src="https://img.shields.io/github/release/Qihoo360/evpp.svg" alt="Github release"></a>
 <a href="https://travis-ci.org/Qihoo360/evpp"><img src="https://travis-ci.org/Qihoo360/evpp.svg?branch=master" alt="Build status"></a>
+[![Platform](https://img.shields.io/badge/platform-%20%20%20%20Linux,%20BSD,%20OS%20X,%20Windows-green.svg?style=flat)](https://github.com/Qihoo360/evpp)
+[![License](https://img.shields.io/badge/license-%20%20BSD%203%20clause-yellow.svg?style=flat)](LICENSE)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-# Introduction  [中文](readme_cn.md)
+
+# Introduction  [中文说明](readme_cn.md)
 
 [evpp] is a modern C++ network library for developing high performance network services in TCP/UDP/HTTP protocols.
 [evpp] provides a TCP Server to support multi-threaded nonblocking event-drive server and also a HTTP, UDP Server to support http and udp prococol.
@@ -14,6 +18,7 @@ evpp
 
 1. Modern C++11 interface
 1. Modern functional/bind style callback instead of C-style function pointer.
+1. Multi-core friendly and thread-safe
 1. A nonblocking multi-threaded TCP server
 1. A nonblocking TCP client
 1. A nonblocking multi-threaded HTTP server based on the buildin http server of libevent
@@ -21,12 +26,13 @@ evpp
 1. A nonblocking multi-threaded UDP server
 1. Async DNS resolving
 1. EventLoop/ThreadPool/Timer
+2. Well tested — [evpp] is well tested with unit tests and stress tested daily in production. It has been used in production and processes 1000+ billions networking communications every day in our production
+3. Easy install — [evpp] can be packaged as a deb, rpm, tar.gz with a single command for straight forward distribution and integration
 
 And also provides some libraries based on [evpp]:
 
-1. [evmc] a nonblocking async C++ memcached (or membase cluster) client library. This library is currently used in production which sends more than 100 billion requests every day. See [evmc readme](/apps/evmc/readme.md) for more details.
-2. [evnsq] a nonblocking async C++ NSQ client library. This library is currently used in production which processes more than 20 billion messages every day. See [evnsq readme](/apps/evnsq/readme.md) for more details.
-
+1. [evmc] a nonblocking async C++ memcached (or membase cluster) client library. This library is currently used in production which sends more than 300 billions requests every day. See [evmc readme](/apps/evmc/readme.md) for more details.
+2. [evnsq] a nonblocking async C++ NSQ client library. This library is currently used in production which processes more than 130 billions messages every day. See [evnsq readme](/apps/evnsq/readme.md) for more details.
 
 NOTE: master is our development branch and may not be stable at all times.
 
@@ -46,7 +52,7 @@ As described above, there are not many options to choose from. So we developed o
 4. We simply use a string with the format of `"ip:port"` to represent a network address. This is referenced to the design of [Golang].
 5. `httpc::ConnPool` : This is HTTP client connection pool with highly performance. In the future we can add more features to this class : load balance and failover.
 
-In addition, in the implematations we pay seriously attations to thread-safe problems. An event-related resource must be initialized and released in its own `EventLoop` thread, so that we can minimize the possibility of thread-safe error. In order to achieve this goal we reimplemented `event_add` and` event_del` and other functions. Each call to `event_add`, we stored the resource into thread local storage, and in the call `event_del`, we checked it whether it is stored in the thread local storage. And then we checked all the threads local storages to see whether there are resources not destructively released when the process was exiting. The detail codes are here [https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L46~L87](https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L46~L87). We are so harshly pursuit the thread safety to make a program can quietly exit or reload, because we have a deep understanding of "developing a system to run forever and developing a system to quietly exit after running a period of time are totally two diffent things".
+In addition, in the implematations we pay seriously attations to thread-safe problems. An event-related resource must be initialized and released in its own `EventLoop` thread, so that we can minimize the possibility of thread-safe error. In order to achieve this goal we reimplemented `event_add` and` event_del` and other functions. Each call to `event_add`, we stored the resource into thread local storage, and in the call `event_del`, we checked it whether it is stored in the thread local storage. And then we checked all the threads local storages to see whether there are resources not destructively released when the process was exiting. The detail codes are here [https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L36~L87](https://github.com/Qihoo360/evpp/blob/master/evpp/inner_pre.cc#L36~L87). We are so harshly pursuit the thread safety to make a program can quietly exit or reload, because we have a deep understanding of "developing a system to run forever and developing a system to quietly exit after running a period of time are totally two diffent things".
 
 
 # Getting Started
@@ -113,7 +119,6 @@ int main(int argc, char* argv[]) {
 ### An echo HTTP server
 
 ```cpp
-#include <evpp/exp.h>
 #include <evpp/http/http_server.h>
 
 int main(int argc, char* argv[]) {
@@ -140,7 +145,6 @@ int main(int argc, char* argv[]) {
 ### An echo UDP server
 
 ```cpp
-#include <evpp/exp.h>
 #include <evpp/udp/udp_server.h>
 #include <evpp/udp/udp_message.h>
 
